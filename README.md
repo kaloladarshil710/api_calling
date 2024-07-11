@@ -8,7 +8,7 @@ This project is an example of calling APIs in Flutter and displaying the results
 
   - 
 ## HomePage
-![HomePage Screenshot](Screenshot (12).png)
+![HomePage Screenshot](C:\Users\DELL\Pictures\Screenshots\Screenshot (12).png)
 
 ## DetailPage
 ![DetailPage Screenshot](Screenshot (13).png)
