@@ -19,6 +19,7 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(),
         body:const HomePage(),
       ),      
+      debugShowCheckedModeBanner: false,
     );
   }
 }
