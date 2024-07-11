@@ -16,7 +16,8 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp( // Wrap your Material widget with MaterialApp
       home: Scaffold(
-        appBar: AppBar(),
+         
+        
         body:const HomePage(),
       ),      
       debugShowCheckedModeBanner: false,
