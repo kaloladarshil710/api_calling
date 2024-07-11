@@ -8,8 +8,8 @@ This project is an example of calling APIs in Flutter and displaying the results
 
   - 
 ## HomePage
-![HomePage Screenshot](/Screenshot (12).png)
+![HomePage Screenshot](Screenshot (12).png)
 
 ## DetailPage
-![DetailPage Screenshot](images/detailpage.png)
+![DetailPage Screenshot](Screenshot (13).png)
    
