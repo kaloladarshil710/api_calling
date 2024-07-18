@@ -1,4 +1,5 @@
 import 'package:api_calling/home_page.dart';
+import 'package:api_calling/login_screen/signup_screen.dart';
 import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
@@ -14,12 +15,12 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp( // Wrap your Material widget with MaterialApp
+    return const MaterialApp(
       home: Scaffold(
          
         
-        body:const HomePage(),
-      ),      
+        body:Register(),
+      ),
       debugShowCheckedModeBanner: false,
     );
   }

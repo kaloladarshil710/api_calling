@@ -19,9 +19,10 @@ class _HomePageState extends State<HomePage> {
     super.initState();
     _futurePosts = getData();
   }
-
+// display date  using GEt method  api
   Future<List<SamplePosts>> getData() async {
     final response = await http.get(Uri.parse("https://jsonplaceholder.typicode.com/posts"));
+    // final response = await http.get(Uri.parse("https://jsonplaceholder.typicode.com/users"));
     if (response.statusCode == 200) {
       final List<dynamic> data = json.decode(response.body);
       return data.map((json) => SamplePosts.fromJson(json)).toList();
